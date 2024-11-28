@@ -1,0 +1,34 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: rgb(206, 260, 206);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 400px;
+    background: rgb(206, 260, 206);
+    box-shadow: 0px 0px 12px rgb(48, 48, 48);
+}
+
+.swiper-slide {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: drop-shadow(5px 5px 10px rgb(95, 95, 95));
+}
